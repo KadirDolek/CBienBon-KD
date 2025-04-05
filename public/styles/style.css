@@ -22435,5 +22435,62 @@ header .secHeader #div2Header .fa-solid {
   background-color: rgba(0, 0, 0, 0.356);
   z-index: 0;
 }
+.section1 .GrandeDiv1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  position: relative;
+}
+.section1 .GrandeDiv1 .section1Text {
+  width: 50%;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+}
+.section1 .GrandeDiv1 .section1Text h3 {
+  color: white;
+}
+.section1 .GrandeDiv1 .section1Text p {
+  color: white;
+}
+.section1 .GrandeDiv1 .section1Text #pItalicsec1 {
+  font-style: italic;
+}
+.section1 .GrandeDiv1 .section1Text #p1sec1 {
+  margin-left: -40px;
+}
+.section1 .GrandeDiv1 .section1Text #p1sec1 .fa-check {
+  color: rgb(229, 184, 105);
+  border: solid 1px rgb(229, 184, 105);
+  border-radius: 50%;
+  font-size: 14px;
+  padding: 5px;
+}
+.section1 .GrandeDiv1 .section1Text #p2sec1 {
+  margin-left: -57px;
+}
+.section1 .GrandeDiv1 .section1Text #p2sec1 .fa-check {
+  color: rgb(229, 184, 105);
+  border: solid 1px rgb(229, 184, 105);
+  border-radius: 50%;
+  font-size: 14px;
+  padding: 5px;
+}
+.section1 .GrandeDiv1 .section1Text #p3sec1 .fa-check {
+  color: rgb(229, 184, 105);
+  border: solid 1px rgb(229, 184, 105);
+  border-radius: 50%;
+  font-size: 14px;
+  padding: 5px;
+}
+.section1 .GrandeDiv1 .section1Img {
+  width: 50%;
+  height: 900px;
+}
 
 /*# sourceMappingURL=style.css.map */
