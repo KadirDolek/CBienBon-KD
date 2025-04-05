@@ -22525,6 +22525,7 @@ header .secHeader #div2Header .fa-solid {
   background-color: rgb(13, 11, 9);
   height: 700px;
   padding-left: 6%;
+  padding-right: 6%;
 }
 .section2 .section2Titre {
   height: 25%;
@@ -22543,40 +22544,60 @@ header .secHeader #div2Header .fa-solid {
   opacity: 60%;
 }
 .section2 .titreSection2 {
-  font-size: 50px;
+  font-size: 60px;
   color: rgb(205, 164, 93);
-  margin-top: -50px;
+  margin-top: -80px;
 }
 .section2 #CarteSection2 {
   height: 65%;
   display: flex;
-  gap: 3%;
+  justify-content: space-between;
   margin-top: 20px;
+  padding-bottom: 5%;
 }
 .section2 #CarteSection2 #carte1Section2 {
   width: 30%;
-  height: 100%;
+  height: 420px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  flex-direction: column;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  background-color: rgb(26, 24, 20);
 }
 .section2 #CarteSection2 #carte2Section2 {
   width: 30%;
-  height: 105%;
+  height: 450px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  flex-direction: column;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  background-color: rgb(26, 24, 20);
 }
 .section2 #CarteSection2 #carte3Section2 {
   width: 30%;
-  height: 100%;
+  height: 420px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  flex-direction: column;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  background-color: rgb(26, 24, 20);
 }
 .section2 #CarteSection2 #p1Section2 {
   font-size: 40px;
   color: rgb(205, 164, 93);
+  text-align: start;
+}
+.section2 #CarteSection2 #p2Section2 {
+  font-size: 37.5px;
+  color: white;
+}
+.section2 #CarteSection2 #p3Section2 {
+  color: white;
+  font-size: 29.5px;
+  font-weight: 100;
 }
 
 /*# sourceMappingURL=style.css.map */
