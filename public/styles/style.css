@@ -22331,8 +22331,8 @@ body {
 }
 .navbar .navbarText {
   display: inline-flex;
-  gap: 35%;
-  margin-left: -35%;
+  gap: 20%;
+  margin-left: -20%;
 }
 .navbar .navbarText1 {
   border-radius: 50px;
@@ -22348,7 +22348,7 @@ body {
 
 header {
   position: relative;
-  height: 1400px;
+  height: 1000px;
   background-image: url(../assets/img/hero-bg.jpg);
   background-attachment: fixed;
 }
@@ -22363,17 +22363,18 @@ header::before {
   z-index: 0;
 }
 header .secHeader {
-  padding-top: 20%;
+  padding-top: 25%;
   display: flex;
   justify-content: center;
   width: 100%;
+  gap: 12%;
 }
 header .secHeader #divHeader {
   display: flex;
   flex-direction: column;
   width: 50%;
   position: relative;
-  margin-left: -25%;
+  margin-left: -15%;
 }
 header .secHeader #divHeader #pHeader {
   color: white;
