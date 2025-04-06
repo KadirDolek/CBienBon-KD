@@ -22628,7 +22628,7 @@ header .secHeader #div2Header .fa-solid {
 .section4 {
   position: relative;
   height: 900px;
-  background-image: url(../assets/img/events-bg.jpg);
+  background-image: url(./../assets/img/events-bg.jpg);
   background-attachment: fixed;
   background-position: 100% 50%;
 }
@@ -22641,6 +22641,32 @@ header .secHeader #div2Header .fa-solid {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.74);
   z-index: 0;
+}
+.section4 div {
+  height: 25%;
+  z-index: 1;
+  position: relative;
+}
+.section4 div p {
+  color: white;
+}
+.section4 div {
+  display: flex;
+  width: auto;
+  height: 300px;
+  justify-content: center;
+}
+.section4 div .card-body {
+  flex-direction: column;
+  color: BLACK;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.section4 div .card-body .card-title {
+  color: rgb(205, 164, 93);
+}
+.section4 div .card-body .card-price {
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

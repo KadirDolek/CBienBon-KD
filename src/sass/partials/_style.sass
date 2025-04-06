@@ -254,7 +254,7 @@ header
 .section4
   position: relative
   height: 900px
-  background-image: url(../assets/img/events-bg.jpg)
+  background-image: url(./../assets/img/events-bg.jpg)
   background-attachment: fixed
   background-position: 100% 50%
   &::before
@@ -266,3 +266,23 @@ header
     height: 100%
     background-color: rgba(0, 0, 0, 0.74)
     z-index: 0
+  div
+    height: 25%
+    z-index: 1
+    position: relative
+    p
+      color: white
+  div
+    display: flex
+    width: auto
+    height: 300px
+    justify-content: center
+    .card-body
+      flex-direction: column
+      color: BLACK
+      padding-left: 5%
+      padding-right: 5%
+      .card-title
+        color: rgb(205, 164, 93)
+      .card-price
+        font-size: 30px
