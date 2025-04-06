@@ -22350,6 +22350,8 @@ header {
   position: relative;
   height: 1000px;
   background-image: url(../assets/img/hero-bg.jpg);
+  background-position: 100% 75%;
+  background-size: 100%;
   background-attachment: fixed;
 }
 header::before {
@@ -22359,7 +22361,7 @@ header::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.356);
+  background-color: rgba(0, 0, 0, 0.726);
   z-index: 0;
 }
 header .secHeader {
@@ -22432,7 +22434,7 @@ header .secHeader #div2Header .fa-solid {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.356);
+  background-color: rgba(0, 0, 0, 0.61);
   z-index: 0;
 }
 .section1 .GrandeDiv1 {
@@ -22621,6 +22623,24 @@ header .secHeader #div2Header .fa-solid {
   color: rgb(172, 162, 162);
   width: 7.5%;
   opacity: 60%;
+}
+
+.section4 {
+  position: relative;
+  height: 900px;
+  background-image: url(../assets/img/events-bg.jpg);
+  background-attachment: fixed;
+  background-position: 100% 50%;
+}
+.section4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.74);
+  z-index: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
