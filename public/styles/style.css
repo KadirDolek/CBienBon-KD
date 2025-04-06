@@ -22651,7 +22651,7 @@ iframe {
 
 .section4 {
   position: relative;
-  height: 900px;
+  height: 1000px;
   background-image: url(./../assets/img/events-bg.jpg);
   background-attachment: fixed;
   background-position: 100% 50%;
@@ -22679,6 +22679,7 @@ iframe {
   font-size: 25px;
   margin-left: 6%;
   margin-bottom: 0;
+  margin-top: 5%;
 }
 .section4 #divEvent #textSection4 {
   color: rgb(205, 164, 93);
@@ -22686,6 +22687,7 @@ iframe {
   margin-top: -2%;
   font-size: 60px;
   font-weight: 400;
+  margin-bottom: 5%;
 }
 .section4 .card {
   display: flex;
@@ -22697,14 +22699,13 @@ iframe {
   margin-left: -1%;
   justify-content: center;
   display: flex;
+  margin-top: 2.5%;
 }
 .section4 .card .card-body {
   flex-direction: column;
-  color: BLACK;
-  padding-left: 17.5%;
+  padding-left: 15.5%;
   margin-left: -7.5%;
-  padding-right: 17.5%;
-  margin-top: -2.5%;
+  padding-right: 15.5%;
   line-height: 35px;
 }
 .section4 .card .card-body .card-title {
