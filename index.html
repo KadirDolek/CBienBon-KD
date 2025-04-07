@@ -15,7 +15,7 @@
                 <a href="">Home</a>
                 <a href="#About">About</a>
                 <a href="#Menu">Menu</a>
-                <a href="">Events</a>
+                <a href="#Event">Events</a>
                 <a href="">Gallery</a>
                 <a href="">Chefs</a>
                 <a href="">Contact</a>
@@ -33,15 +33,22 @@
                 </span>
             </div>
             <div id="div2Header">
-                <input type="checkbox" id="video-toggle">
-                <label for="video-toggle">
+                <input type="checkbox" id="video-toggle">  
+                    <label for="video-toggle" onclick="document.getElementById('videoPopup').showModal()">
                     <i class="fa-solid fa-play"></i>
                 </label>
             </div>
-            <div id="video-container">
-                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
         </section>
+        <dialog id="videoPopup">
+            <form method="dialog">
+                <button class="close-button" aria-label="Fermer">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </form>
+            <video controls>
+                <source src="https://www.youtube.com/watch?v=oUhWsKMcoKY&list=RDkd6Dx4SoGQ4&index=27" type="video/mp4">
+            </video>
+        </dialog>
     </header>
     <section id="About" class="section1">
         <div class="GrandeDiv1">

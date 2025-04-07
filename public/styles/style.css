@@ -22421,25 +22421,32 @@ header .secHeader #div2Header .fa-solid {
   font-size: 30px;
   box-shadow: 0px 0px 0px 10px rgba(204, 164, 94, 0.336);
 }
-
-#video-toggle {
+header .secHeader #video-toggle {
   display: none;
 }
-
-#video-container {
-  display: none;
-  margin-top: 20px;
-  width: 100%;
+header .secHeader dialog#videoPopup {
+  padding: 0;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  max-width: 80vw;
+  background-color: transparent;
+  z-index: 100;
 }
-
-#video-toggle:checked + #video-container {
-  display: block;
-}
-
-iframe {
-  width: 100%;
-  max-width: 600px;
-  height: 315px;
+header .secHeader dialog#videoPopup .close-button {
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgb(204, 163, 94);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 5px rgba(204, 164, 94, 0.336);
 }
 
 .fa-play {
@@ -22620,6 +22627,9 @@ iframe {
   color: rgb(205, 164, 93);
   text-align: start;
 }
+.section2 #CarteSection2 #p1Section2:hover {
+  color: white;
+}
 .section2 #CarteSection2 #p2Section2 {
   font-size: 37.5px;
   color: white;
@@ -22628,9 +22638,6 @@ iframe {
   color: white;
   font-size: 29.5px;
   font-weight: 100;
-}
-.section2 #CarteSection2 #p1Section2:hover, .section2 #CarteSection2 #p2Section2:hover, .section2 #CarteSection2 #p3Section2:hover {
-  color: rgb(26, 24, 20);
 }
 
 .section3 {
