@@ -22853,17 +22853,27 @@ header .secHeader #video-toggle {
 }
 .section6 #divImg #div1Img {
   height: 50%;
+  transition: transform 0.3s ease;
 }
 .section6 #divImg #div1Img #imgGallery {
   width: 24%;
   height: 100%;
+  transition: transform 0.3s ease;
+}
+.section6 #divImg #div1Img #imgGallery:hover {
+  transform: scale(1.05) !important;
 }
 .section6 #divImg #div2Img {
   height: 50%;
+  transition: transform 0.3s ease;
 }
 .section6 #divImg #div2Img #imgGallery {
   width: 24%;
   height: 100%;
+  transition: transform 0.3s ease;
+}
+.section6 #divImg #div2Img #imgGallery:hover {
+  transform: scale(1.05) !important;
 }
 
 /*# sourceMappingURL=style.css.map */
