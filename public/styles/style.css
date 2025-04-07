@@ -22348,7 +22348,8 @@ body {
 
 header {
   position: relative;
-  height: 1000px;
+  height: auto;
+  padding-bottom: 22.5%;
   background-image: url(../assets/img/hero-bg.jpg);
   background-position: 100% 75%;
   background-size: 100%;
@@ -22457,7 +22458,7 @@ header .secHeader #video-toggle {
 
 .section1 {
   position: relative;
-  height: 900px;
+  height: auto;
   background-image: url(../assets/img/about-bg.jpg);
   background-attachment: fixed;
 }
@@ -22477,10 +22478,12 @@ header .secHeader #video-toggle {
   justify-content: center;
   z-index: 1;
   position: relative;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 .section1 .GrandeDiv1 .section1Text {
   width: 50%;
-  height: 900px;
+  height: auto;
   letter-spacing: 1px;
   display: flex;
   align-items: center;
@@ -22559,7 +22562,7 @@ header .secHeader #video-toggle {
 
 .section2 {
   background-color: rgb(13, 11, 9);
-  height: 700px;
+  height: auto;
   padding-left: 6%;
   padding-right: 6%;
 }
@@ -22571,7 +22574,6 @@ header .secHeader #video-toggle {
 }
 .section2 .section2Titre .texteSection2 {
   color: rgb(141, 140, 140);
-  display: inline;
   font-size: 25px;
 }
 .section2 .section2Titre hr {
@@ -22582,10 +22584,10 @@ header .secHeader #video-toggle {
 .section2 .titreSection2 {
   font-size: 60px;
   color: rgb(205, 164, 93);
-  margin-top: -80px;
+  margin-bottom: 60px;
 }
 .section2 #CarteSection2 {
-  height: 65%;
+  height: auto;
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
@@ -22819,6 +22821,24 @@ header .secHeader #video-toggle {
   width: 200px;
   font-size: 20px;
   color: white;
+}
+
+.section6 {
+  height: auto;
+  background-color: rgb(13, 11, 9);
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 10%;
+}
+.section6 #p1Section6 {
+  color: white;
+  font-size: 25px;
+}
+.section6 hr {
+  color: white;
+  width: 7.5%;
+  opacity: 25%;
+  margin-left: 2.5%;
 }
 
 /*# sourceMappingURL=style.css.map */
