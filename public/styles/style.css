@@ -22390,9 +22390,10 @@ header .secHeader #divHeader #pHeader #spanHeader {
 header .secHeader #divHeader #p1Header {
   color: white;
   align-self: flex-start;
-  font-size: 22px;
+  font-size: 27.5px;
   letter-spacing: 0.5px;
   margin-top: 0;
+  margin-bottom: 5%;
 }
 header .secHeader #divHeader #span1Header {
   display: flex;
@@ -22611,6 +22612,9 @@ iframe {
   padding-right: 2.5%;
   background-color: rgb(26, 24, 20);
 }
+.section2 #CarteSection2 #carte1Section2:hover, .section2 #CarteSection2 #carte2Section2:hover, .section2 #CarteSection2 #carte3Section2:hover {
+  background-color: rgb(205, 164, 93);
+}
 .section2 #CarteSection2 #p1Section2 {
   font-size: 40px;
   color: rgb(205, 164, 93);
@@ -22624,6 +22628,9 @@ iframe {
   color: white;
   font-size: 29.5px;
   font-weight: 100;
+}
+.section2 #CarteSection2 #p1Section2:hover, .section2 #CarteSection2 #p2Section2:hover, .section2 #CarteSection2 #p3Section2:hover {
+  color: rgb(26, 24, 20);
 }
 
 .section3 {
@@ -22707,6 +22714,7 @@ iframe {
   margin-left: -7.5%;
   padding-right: 15.5%;
   line-height: 35px;
+  margin-top: -2.5%;
 }
 .section4 .card .card-body .card-title {
   color: rgb(205, 164, 93);
@@ -22723,6 +22731,14 @@ iframe {
 .section4 .card .card-body p {
   color: white;
   font-size: 25px;
+}
+
+.section5 {
+  height: auto;
+  background-color: rgb(13, 11, 9);
+}
+.section5 #divReservation {
+  padding-top: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
