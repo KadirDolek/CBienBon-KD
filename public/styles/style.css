@@ -22425,7 +22425,7 @@ header .secHeader #video-toggle {
   display: none;
 }
 
-dialog#videoPopup {
+#videoPopup {
   padding: 0;
   border: solid 3px;
   border-radius: 8px;
