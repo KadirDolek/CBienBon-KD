@@ -22736,9 +22736,34 @@ iframe {
 .section5 {
   height: auto;
   background-color: rgb(13, 11, 9);
+  padding-left: 6%;
 }
-.section5 #divReservation {
+.section5 #grandDiv5 {
+  display: flex;
+  flex-direction: column;
+}
+.section5 #grandDiv5 #divReservation {
   padding-top: 5%;
+  height: 25%;
+  display: flex;
+  gap: 2.5%;
+}
+.section5 #grandDiv5 #divReservation #p1Reservation {
+  color: white;
+  display: inline;
+  font-size: 25px;
+}
+.section5 #grandDiv5 #divReservation hr {
+  color: white;
+  width: 7.5%;
+  opacity: 25%;
+}
+.section5 #grandDiv5 #p2Reservation {
+  color: rgb(205, 164, 93) !important;
+  font-size: 60px !important;
+}
+.section5 #FormReserv {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
