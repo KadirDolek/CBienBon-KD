@@ -22850,6 +22850,7 @@ header .secHeader #video-toggle {
 .section6 #divImg {
   width: 100%;
   height: 620px;
+  margin-left: 1.5%;
 }
 .section6 #divImg #div1Img {
   height: 50%;
@@ -22874,6 +22875,49 @@ header .secHeader #video-toggle {
 }
 .section6 #divImg #div2Img #imgGallery:hover {
   transform: scale(1.05) !important;
+}
+
+.section7 {
+  height: auto;
+  background-color: rgb(13, 11, 9);
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 10%;
+}
+.section7 .divSection7 {
+  display: flex;
+  flex-direction: column;
+}
+.section7 .divSection7 .TextSection7 {
+  display: flex;
+}
+.section7 .divSection7 .TextSection7 .p1Section7 {
+  color: white;
+  font-size: 25px;
+  padding-left: 0.5%;
+}
+.section7 .divSection7 .TextSection7 hr {
+  color: white;
+  width: 7.5%;
+  opacity: 25%;
+  margin-left: 2.75%;
+}
+.section7 .divSection7 .p2Section7 {
+  color: rgb(205, 164, 93);
+  font-size: 55px;
+}
+.section7 .ImgSection7 {
+  width: 97.5%;
+  height: 475px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  margin-top: 2.5%;
+}
+.section7 .ImgSection7 #imgS7 {
+  width: 30%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
