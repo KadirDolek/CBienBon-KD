@@ -22319,6 +22319,7 @@ textarea.form-control-lg {
 }
 body {
   margin-top: 0;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -22341,6 +22342,9 @@ body {
   padding-right: 25px;
   background: none;
   border: 1px orange solid;
+}
+.navbar .navbarText1:hover {
+  background-color: rgb(205, 164, 93);
 }
 .navbar .navbar-brand {
   font-size: 30px;
@@ -22408,6 +22412,9 @@ header .secHeader #divHeader #btnHeader {
   background: none;
   border: 1px orange solid;
   color: white;
+}
+header .secHeader #divHeader #btnHeader:hover {
+  background-color: rgb(205, 164, 93);
 }
 header .secHeader #div2Header {
   padding-top: 5%;
@@ -22539,6 +22546,10 @@ header .secHeader #video-toggle {
   background-size: cover;
   margin-top: -220px;
   border: solid 3px rgb(61, 65, 68);
+  transition: transform 0.3s ease;
+}
+.section1 .GrandeDiv1 .section1Img:hover {
+  transform: scale(1.1);
 }
 .section1 .GrandeDiv1 .section1Img .corner-border {
   border-top: solid 5px rgb(205, 164, 93);
@@ -22919,6 +22930,39 @@ header .secHeader #video-toggle {
   width: 30%;
   height: 100%;
 }
+.section7 .ImgSection7 #img1S7 {
+  background-image: url("../assets/img/chefs/chefs-1.jpg");
+  width: 30%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.section7 .ImgSection7 #img2S7 {
+  background-image: url("../assets/img/chefs/chefs-2.jpg");
+  width: 30%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.section7 .ImgSection7 #img3S7 {
+  background-image: url("../assets/img/chefs/chefs-3.jpg");
+  width: 30%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.section7 .ImgSection7 #textChef1, .section7 .ImgSection7 #textChef2, .section7 .ImgSection7 #textChef3, .section7 .ImgSection7 .fa-brands {
+  position: relative;
+  transform: translateY(310px);
+  color: white;
+}
+.section7 .ImgSection7 #logo {
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  color: white;
+  font-size: 22.5px;
+}
 
 .section8 {
   height: auto;
@@ -23181,6 +23225,18 @@ header .secHeader #video-toggle {
   font-weight: 600;
   transition: background-color 0.3s;
   border: none;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  height: 10vh;
+}
+footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding-top: 2%;
 }
 
 /*# sourceMappingURL=style.css.map */
