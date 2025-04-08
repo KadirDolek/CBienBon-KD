@@ -32,6 +32,7 @@
                     <button id="btnHeader">BOOK A TABLE</button>
                 </span>
             </div>
+                <!-- Avec onclick/toggle je peux sélectionner le document a jouer en cliquant la checkbox  -->
             <div id="div2Header">
                 <input type="checkbox" id="video-toggle">  
                     <label for="video-toggle" onclick="document.getElementById('videoPopup').showModal()">
@@ -39,6 +40,7 @@
                 </label>
             </div>
         </section>
+        <!-- la balise dialog permet a la vidéo d'être joué, faut insérer iFrame correctement sinon 0 resultat -->
         <dialog id="videoPopup">
             <form method="dialog">
                 <button class="close-button" aria-label="Fermer"> 
@@ -267,15 +269,48 @@
                 </div>
             </div>
         </div>
-    </section>
+        <hr id="hrAvantFooter">
+    </section> 
     <section id="lien" class="section9">
-        <div id="lien1"></div>
-        <div id="lien2"></div>
-        <div id="lien3"></div>
-        <div id="lien4"></div>
+        <div id="lien1">
+            <h5>CBIENBON</h5>
+            <p>A108 Adam Street</p>
+            <P>NY 535022, USA</P> <br>
+            <p><strong>Phone:&ensp;</strong>+1 5589 55488 55</p>
+            <p><strong>Email:&ensp;</strong>info@example.com</p>
+            <p class="text-white"><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-skype"></i><i class="fa-brands fa-linkedin-in"></i></p>
+        </div>
+        <div id="lien2">
+            <h6>Useful Links</h6>
+            <ul>
+                <li><i class="fa-solid fa-angle-right"></i>Home</li>
+                <li><i class="fa-solid fa-angle-right"></i>About us</li>
+                <li><i class="fa-solid fa-angle-right"></i>Services</li>
+                <li><i class="fa-solid fa-angle-right"></i>Terms of service</li>
+                <li><i class="fa-solid fa-angle-right"></i>Privacy policy</li>
+            </ul>
+        </div>
+        <div id="lien3">
+            <h6>Our Services</h6>
+            <ul>
+                <li><i class="fa-solid fa-angle-right"></i>Web Design</li>
+                <li><i class="fa-solid fa-angle-right"></i>Web Development</li>
+                <li><i class="fa-solid fa-angle-right"></i>Product Management</li>
+                <li><i class="fa-solid fa-angle-right"></i>Marketing</li>
+                <li><i class="fa-solid fa-angle-right"></i>Graphic Design</li>
+            </ul>
+        </div>
+        <div id="lien4">
+            <h6>Our Newsletter</h6>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <div class="subscribe-container">
+                <input type="text" class="input-field" placeholder="">
+                <button class="subscribe-button">Subscribe</button>
+            </div>
+        </div>
     </section>
     <footer>
-        
+
     </footer>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
