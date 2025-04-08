@@ -180,9 +180,12 @@ header
       background-size: cover
       margin-top: -220px
       border: solid 3px rgb(61, 65, 68)
-      transition: transform 0.3s ease
+      transition: transform 0.7s ease
       &:hover
         transform: scale(1.1)
+        .corner-border, .corner-border1
+          &:hover
+          transform: scale(1.2)
       .corner-border
         border-top: solid 5px rgb(205, 164, 93)
         margin-top: 3%
@@ -190,9 +193,10 @@ header
         width: 10%
         height: 13%
         border-left: solid 5px rgb(205, 164, 93)
+        transition: transform 0.7s ease
       .corner-border1
         position: relative
-        top: 285px
+        top: 295px
         left: 575px
         border-bottom: solid 5px rgb(205, 164, 93)
         margin-bottom: 30px !important
@@ -200,6 +204,7 @@ header
         width: 10%
         height: 13%
         border-right: solid 5px rgb(205, 164, 93)
+        transition: transform 0.7s ease
                
 .section2
   background-color: rgb(13, 11, 9)
@@ -422,6 +427,8 @@ header
         width: 200px
         font-size: 20px
         color: white
+        &:hover
+          background-color: rgba(205, 164, 93, 0)
       
 .section6
   height: auto
@@ -455,7 +462,7 @@ header
         height: 100%
         transition: transform 0.3s ease
       #imgGallery:hover
-        transform: scale(1.03) !important
+        transform: scale(1.025) !important
     #div2Img
       height: 50%
       transition: transform 0.3s ease
@@ -464,7 +471,7 @@ header
         height: 100%
         transition: transform 0.3s ease
       #imgGallery:hover
-        transform: scale(1.03) !important
+        transform: scale(1.025) !important
         
 .section7
   height: auto
@@ -654,6 +661,8 @@ header
         color: white
         margin-left: 40%
         margin-top: 2.5%
+        &:hover
+          background-color: rgba(205, 164, 93, 0)
         
 #hrAvantFooter
   color: white
@@ -702,6 +711,8 @@ header
       list-style: none
       line-height: 47.5px
       color: white
+      &:hover
+        color: rgb(162, 129, 7)
       .fa-solid
         color: rgb(162, 129, 74)
   #lien3
@@ -719,6 +730,8 @@ header
       list-style: none
       line-height: 47.5px
       color: white
+      &:hover
+        color: rgb(162, 129, 74)
       .fa-solid
         color: rgb(162, 129, 74)
   #lien4
@@ -765,3 +778,16 @@ footer
     color: white
     padding-top: 2%
     
+header:hover #home
+  color: rgb(205, 164, 93)
+
+#arrow
+  position: absolute
+  color: rgb(205, 164, 93)
+  border-radius: 50%
+  border: 0.5px solid rgb(205, 164, 93)
+  transform: translateX(1850px) translateY(-50px)
+  padding: 7.5px
+
+
+  
