@@ -58,18 +58,18 @@
                 <p id="pItalicsec1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis quia a vero odit culpa dignissimos quos cupiditate neque magna.</p>
                 <p id="p1sec1">
                     <i class="fa-solid fa-check"></i>
-                    &nbsp;Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    &nbsp;Ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit.
                 </p>
                 <p id="p2sec1">
                     <i class="fa-solid fa-check"></i>
-                    &nbsp;Duis aute irure dolor in reprehenderit in voluptate velit.
+                    &nbsp;Duis aute irure dolor in reprehenderit in voluptate velit. Lorem, ipsum dolor.
                 </p>
                 <p id="p3sec1">
                     <i class="fa-solid fa-check"></i>
                     &nbsp;Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duit aute irure dolor in reprehenderit in voluptate trideta storacalaprerda mastiro dolore eu fugiat nulla paratir
                 </p>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus facere nihil soluta nostrum labore ipsa cum alias porro minus tempore nobis, quaerat illum fugit ratione reiciendis? Vel, eos sapiente. Voluptatem, ipsam facilis! Aspernatur aperiam repudiandae dolorem!           
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus facere nihil soluta nostrum labore ipsa cum alias porro minus tempore nobis, quaerat illum fugit ratione reiciendis? Vel, eos sapiente. Voluptatem, ipsam facilis!          
                 </p>
             </div>
             <div class="section1Img">
@@ -102,35 +102,172 @@
         </div>
     </section>
     <section id="Menu" class="section3">
-        <div class="div1Section3">
-            <p class="texteSection3">MENU <hr> </p>
-            <p></p>
+        <div class="div0Section3">
+          <div class="div1Section3">
+            <p class="texteSection3">MENU <hr></p>
+          </div>
+          <p class="TitreSection3">Check Our Tasty Menu</p>
         </div>
+        <!-- https://css-tricks.com/functional-css-tabs-revisited/ -->
+        <input type="radio" id="all" name="category-filter" value="all" class="filter-radio" checked>
+        <input type="radio" id="starters" name="category-filter" value="starters" class="filter-radio">
+        <input type="radio" id="salads" name="category-filter" value="salads" class="filter-radio">
+        <input type="radio" id="specialty" name="category-filter" value="specialty" class="filter-radio">
+        
+        <div class="LeMenu">
+          <div class="filter-container">
+            <label for="all" class="filter-label">All</label>
+            <label for="starters" class="filter-label">Starters</label>
+            <label for="salads" class="filter-label">Salads</label>
+            <label for="specialty" class="filter-label">Speciality</label>
+          </div>
+        </div>
+    <div class="menu-container">
+    <!-- Starters -->
+    <div class="menu-item starters">
+      <div class="menu-item-content">
+        <div class="menu-item-img">
+          <img src="./public/assets/img/menu/lobster-bisque.jpg" alt="Lobster Bisque">
+        </div>
+        <div class="menu-item-info">
+          <div class="menu-item-header">
+            <h4>Lobster Bisque&ensp;..........................................................................................................................</h4>
+            <span class="price">$5.95</span>
+          </div>
+          <p class="description">Lorem, ipsum, lratora, ftlede, neeroda</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="menu-item starters">
+      <div class="menu-item-content">
+        <div class="menu-item-img">
+          <img src="./public/assets/img/menu/bread-barrel.jpg" alt="Bread Barrel">
+        </div>
+        <div class="menu-item-info">
+          <div class="menu-item-header">
+            <h4>Bread Barrel&ensp;...........................................................................................................................</h4>
+            <span class="price">$6.95</span>
+          </div>
+          <p class="description">Lorem, ipsum, lratora, ftlede, neeroda</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="menu-item starters">
+      <div class="menu-item-content">
+        <div class="menu-item-img">
+          <img src="./public/assets/img/menu/cake.jpg" alt="Crab Cake">
+        </div>
+        <div class="menu-item-info">
+          <div class="menu-item-header">
+            <h4>Crab Cake&ensp;.................................................................................................................................</h4>
+            <span class="price">$7.95</span>
+          </div>
+          <p class="description">A delicate crab cake served on a toasted roll with lettuce and tartar sauce</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Salads -->
+    <div class="menu-item salads">
+      <div class="menu-item-content">
+        <div class="menu-item-img">
+          <img src="./public/assets/img/menu/caesar.jpg" alt="Caesar Selections">
+        </div>
+        <div class="menu-item-info">
+          <div class="menu-item-header">
+            <h4>Caesar Selections&ensp;...............................................................................................................</h4>
+            <span class="price">$8.95</span>
+          </div>
+          <p class="description">Lorem, ipsum, lratora, ftlede, neeroda</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="menu-item salads">
+      <div class="menu-item-content">
+        <div class="menu-item-img">
+          <img src="./public/assets/img/menu/greek-salad.jpg" alt="Greek Salad">
+        </div>
+        <div class="menu-item-info">
+          <div class="menu-item-header">
+            <h4>Greek Salad&ensp;..............................................................................................................................</h4>
+            <span class="price">$9.95</span>
+          </div>
+          <p class="description">Fresh spinach, crisp romaine, tomatoes, and Greek olives</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="menu-item salads">
+      <div class="menu-item-content">
+        <div class="menu-item-img">
+          <img src="./public/assets/img/menu/spinach-salad.jpg" alt="Spinach Salad">
+        </div>
+        <div class="menu-item-info">
+          <div class="menu-item-header">
+            <h4>Spinach Salad&ensp;................................................................................................................................</h4>
+            <span class="price">$9.95</span>
+          </div>
+          <p class="description">Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Specialty -->
+    <div class="menu-item specialty">
+      <div class="menu-item-content">
+        <div class="menu-item-img">
+          <img src="./public/assets/img/menu/tuscan-grilled.jpg" alt="Tuscan Grilled">
+        </div>
+        <div class="menu-item-info">
+          <div class="menu-item-header">
+            <h4>Tuscan Grilled&ensp;.........................................................................................................................</h4>
+            <span class="price">$9.95</span>
+          </div>
+          <p class="description">Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="menu-item specialty">
+      <div class="menu-item-content">
+        <div class="menu-item-img">
+          <img src="./public/assets/img/menu/mozzarella.jpg" alt="Mozzarella Stick">
+        </div>
+        <div class="menu-item-info">
+          <div class="menu-item-header">
+            <h4>Mozzarella Stick&ensp;.......................................................................................................................</h4>
+            <span class="price">$4.95</span>
+          </div>
+          <p class="description">Lorem, ipsum, lratora, ftlede, neeroda</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="menu-item specialty">
+      <div class="menu-item-content">
+        <div class="menu-item-img">
+          <img src="./public/assets/img/menu/lobster-roll.jpg" alt="Lobster Roll">
+        </div>
+        <div class="menu-item-info">
+          <div class="menu-item-header">
+            <h4>Lobster Roll&ensp;.............................................................................................................................</h4>
+            <span class="price">$12.95</span>
+          </div>
+          <p class="description">Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</p>
+        </div>
+      </div>
+    </div>
+    </div>
     </section>
     <section id="Event" class="section4">
         <div id="divEvent">
             <p id="titreSection4">EVENTS <hr> </p>
             <p id="textSection4">Organize Your Events in our Restaurant</p>
         </div>
-        <!-- <div>
-            <div class="card mb-3" style="max-width:auto; background-color: transparent;">
-                <div class="row g-0">
-                  <div class="col-md-6">
-                    <img id="imgEvent" style="height: 460px; width: 720px;" src="./public/assets/img/event-custom.jpg" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-6">
-                    <div class="card-body">
-                      <h5 class="card-title">Custom Parties</h5>
-                      <p class="card-price">$99 </p>
-                      <p class="card-text"><i>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</i></p>
-                      <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                      <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-                      <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsum, expedita explicabo harum rem, facilis aut quos quasi facere, esse recusandae obcaecati illo cum? Excepturi.</p>
-                    </div>
-                  </div>
-                </div>
-        </div> -->
+        <!-- Un d-flex bien placé ca fait de la magie  -->
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <!-- Premier élément du carousel -->
@@ -144,16 +281,16 @@
                       <h5 class="card-title">Custom Parties</h5>
                       <p class="card-price">$99</p>
                       <p class="card-text"><i>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</i></p>
-                      <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                      <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-                      <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsum, expedita explicabo harum rem, facilis aut quos quasi facere, esse recusandae obcaecati illo cum? Excepturi.</p>
+                      <p class="fs">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      <p class="fs">Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                      <p class="fs">Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                      <p class="fs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsum, expedita explicabo harum rem, facilis aut quos quasi facere, esse recusandae obcaecati illo cum? Excepturi.</p>
                     </div>
                   </div>
                 </div>
               </div>
               
-              <!-- Deuxième élément du carousel - avec la même structure que le premier -->
+              <!-- Deuxième élément du carousel -->
               <div class="carousel-item">
                 <div class="d-flex">
                   <div id="carouselImages">
@@ -162,18 +299,18 @@
                   <div id="carouselTexte">
                     <div class="card-body">
                       <h5 class="card-title">Birthday Parties</h5>
-                      <p class="card-price">$99</p>
+                      <p class="card-price">$290</p>
                       <p class="card-text"><i>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</i></p>
-                      <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                      <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-                      <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsum, expedita explicabo harum rem, facilis aut quos quasi facere, esse recusandae obcaecati illo cum? Excepturi.</p>
+                      <p class="fs">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      <p class="fs">Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                      <p class="fs">Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                      <p class="fs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsum, expedita explicabo harum rem, facilis aut quos quasi facere, esse recusandae obcaecati illo cum? Excepturi.</p>
                     </div>
                   </div>
                 </div>
               </div>
               
-              <!-- Troisième élément du carousel - avec la même structure que le premier -->
+               <!-- Troisième élément du carousel -->
               <div class="carousel-item">
                 <div class="d-flex">
                   <div id="carouselImages">
@@ -182,18 +319,18 @@
                   <div id="carouselTexte">
                     <div class="card-body">
                       <h5 class="card-title">Private Parties</h5>
-                      <p class="card-price">$99</p>
+                      <p class="card-price">$189</p>
                       <p class="card-text"><i>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</i></p>
-                      <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                      <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-                      <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsum, expedita explicabo harum rem, facilis aut quos quasi facere, esse recusandae obcaecati illo cum? Excepturi.</p>
+                      <p class="fs">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      <p class="fs">Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                      <p class="fs">Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                      <p class="fs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsum, expedita explicabo harum rem, facilis aut quos quasi facere, esse recusandae obcaecati illo cum? Excepturi.</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            
+            <!-- J'ai custom le bouton car c'était des traits, j'en voulais pas. -->
             <div class="custom-dots-container">
                 <button class="custom-dot active" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
                 <button class="custom-dot" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
