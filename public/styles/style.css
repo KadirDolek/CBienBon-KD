@@ -22937,12 +22937,26 @@ header .secHeader #video-toggle {
   background-size: cover;
   background-position: center;
 }
+.section7 .ImgSection7 #img1S7 #textS7 {
+  opacity: 0;
+}
+.section7 .ImgSection7 #img1S7 #textS7:hover {
+  opacity: 1;
+  background: linear-gradient(to top, black 0%, rgba(255, 255, 255, 0.432) 100%);
+}
 .section7 .ImgSection7 #img2S7 {
   background-image: url("../assets/img/chefs/chefs-2.jpg");
   width: 30%;
   height: 400px;
   background-size: cover;
   background-position: center;
+}
+.section7 .ImgSection7 #img2S7 #textS7 {
+  opacity: 0;
+}
+.section7 .ImgSection7 #img2S7 #textS7:hover {
+  opacity: 1;
+  background: linear-gradient(to top, black 0%, rgba(255, 255, 255, 0.432) 100%);
 }
 .section7 .ImgSection7 #img3S7 {
   background-image: url("../assets/img/chefs/chefs-3.jpg");
@@ -22951,9 +22965,17 @@ header .secHeader #video-toggle {
   background-size: cover;
   background-position: center;
 }
-.section7 .ImgSection7 #textChef1, .section7 .ImgSection7 #textChef2, .section7 .ImgSection7 #textChef3, .section7 .ImgSection7 .fa-brands {
+.section7 .ImgSection7 #img3S7 #textS7 {
+  opacity: 0;
+}
+.section7 .ImgSection7 #img3S7 #textS7:hover {
+  opacity: 1;
+  background: linear-gradient(to top, black 0%, rgba(255, 255, 255, 0.432) 100%);
+}
+.section7 .ImgSection7 #textChef1, .section7 .ImgSection7 #textChef2, .section7 .ImgSection7 #textChef3 {
   position: relative;
-  transform: translateY(310px);
+  padding-top: 75%;
+  padding-bottom: -100px;
   color: white;
 }
 .section7 .ImgSection7 #logo {
