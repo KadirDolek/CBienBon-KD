@@ -215,7 +215,7 @@ header
     height: 25%
     display: flex
     gap: 2%
-    padding-top: 3%
+    padding-top: 2%
     .texteSection2
       color: rgb(141, 140, 140)
       font-size: 25px
@@ -263,17 +263,17 @@ header
     #carte1Section2:hover, #carte2Section2:hover, #carte3Section2:hover
       background-color: rgb(205, 164, 93)
     #p1Section2
-      font-size: 40px
+      font-size: 38px
       color: rgb(205, 164, 93)
       text-align: start
     #p1Section2:hover
       color: white
     #p2Section2
-      font-size: 37.5px
+      font-size: 34.5px
       color: white
     #p3Section2
       color: white
-      font-size: 29.5px
+      font-size: 26.5px
       font-weight: 100
               
 .section3
@@ -330,36 +330,22 @@ header
       font-size: 60px
       font-weight: 400
       margin-bottom: 5%
-  .card
-    display: flex
-    width: auto
-    height: 300px
-    justify-content: start
-    div
-      margin-left: -1%
-      justify-content: center
-      display: flex
-      margin-top: 2.5%
-    .card-body
-      flex-direction: column
-      padding-left: 15.5%
-      margin-left: -7.5%
-      padding-right: 15.5%
-      line-height: 35px
-      margin-top: -2.5%
-      .card-title
-        color: rgb(205, 164, 93)
-        font-size: 45px
-        margin-bottom: 5.5%
-      .card-price
-        font-size: 35px
-        color: white
-        text-decoration: underline
-        text-decoration-color: rgb(205, 164, 93)
-        margin-bottom: 5.5%
-      p
-        color: white
-        font-size: 25px
+  #carouselExampleAutoplaying
+    padding-left: 6%
+    padding-right: 6%
+    #carouselTexte
+      color: white
+      margin-left: 5%
+    .custom-dots-container
+      @include flex
+      gap: 0.4%
+      .custom-dot
+        padding: 5px
+        border-radius: 50%
+        background: none
+        border: 1px solid white
+        &:hover
+          background-color: white
 
 .section5
   height: auto
@@ -790,4 +776,3 @@ header:hover #home
   padding: 7.5px
 
 
-  
