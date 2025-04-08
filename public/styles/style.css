@@ -22661,7 +22661,7 @@ header .secHeader #video-toggle {
   padding-left: 6%;
   padding-right: 6%;
   padding-bottom: 50px;
-  color: #fff;
+  color: white;
 }
 .section3 .div0Section3 {
   display: flex;
@@ -22917,7 +22917,7 @@ input {
   width: 7.5%;
   opacity: 25%;
 }
-.section5 #grandDiv5 #p2Reservation {
+.section5 #p2Reservation {
   color: rgb(205, 164, 93) !important;
   font-size: 60px !important;
   margin-bottom: 5%;
@@ -23406,10 +23406,6 @@ footer p {
   justify-content: center;
   color: white;
   padding-top: 2%;
-}
-
-header:hover #home {
-  color: rgb(205, 164, 93);
 }
 
 #arrow {
