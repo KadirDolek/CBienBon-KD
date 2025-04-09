@@ -22845,13 +22845,15 @@ input {
   color: rgb(205, 164, 93);
   margin-left: 6%;
   margin-top: -2%;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 400;
   margin-bottom: 5%;
 }
 .section4 #carouselExampleAutoplaying {
   padding-left: 6%;
   padding-right: 6%;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .section4 #carouselExampleAutoplaying #carouselTexte {
   color: white;
